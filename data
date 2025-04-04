@@ -1,0 +1,34 @@
+-- -----------------------
+-- 📦 SAMPLE DATA
+-- -----------------------
+
+INSERT INTO movies VALUES
+(1, 'Iron Man', 2008, 'Action'),
+(2, 'Inception', 2010, 'Sci-Fi'),
+(3, 'Titanic', 1997, 'Romance'),
+(4, 'Avengers: Endgame', 2019, 'Action'),
+(5, 'Interstellar', 2014, 'Sci-Fi');
+
+INSERT INTO actors VALUES
+(1, 'Robert Downey Jr.'),
+(2, 'Leonardo DiCaprio'),
+(3, 'Kate Winslet'),
+(4, 'Chris Evans');
+
+INSERT INTO movie_actors VALUES
+(1, 1),
+(2, 2),
+(3, 2),
+(3, 3),
+(4, 1),
+(4, 4),
+(5, 2);
+
+INSERT INTO ratings VALUES
+(1, 'IMDb', 7.9),
+(1, 'RottenTom.', 8.1),
+(2, 'IMDb', 8.8),
+(3, 'IMDb', 7.8),
+(4, 'IMDb', 8.4),
+(4, 'RottenTom.', 8.5),
+(5, 'IMDb', 8.6);
